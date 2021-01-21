@@ -1,0 +1,38 @@
+.Header{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+   
+}
+.Headlogo{
+    background-color: #1B1464;
+    /* width: 100%; */
+    padding: 19px 0px 19px 59.2px;
+}
+.HeadCont{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px 0px 19px 59.2px;
+    background-color: #FFFFFF;
+}
+.HeadText{
+    margin-right: 20px;
+    color: #1B1464;
+    font-size: 16px;
+    font-style: normal normal normal 20px/25px Muli;
+}
+.HeadText4{
+    margin-left: auto;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
