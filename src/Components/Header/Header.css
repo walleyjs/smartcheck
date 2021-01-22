@@ -19,15 +19,27 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 10px 0px 10px 59.2px;
+    padding: 10px 0px 0px 59.2px;
     background-color: #ffffff;
 }
+.HeadCont a:focus {
+    border-bottom: 3px solid #49D3FF;
+
+  }
+  .HeadCont a{
+      color:#1B1464;
+      padding: 0px 0px 10px 0px;
+  }
+  
 .HeadText{
-    margin-right: 20px;
+    padding: 20px 0px 10px 0px;
+    margin-right: 10px;
+    margin-left: 10px;
     color: #1B1464;
-    font-size: 16px;
+    font-size: 15px;
     font-style: normal normal normal 20px/25px Muli;
-    padding: 15px 0px 0px 0px;
+   
+    /* width: 10%; */
 }
 a:-webkit-any-link {
     text-decoration: none;
@@ -57,6 +69,6 @@ ul {
     padding-inline-start: 0px;
 }
 .Rcomp{
-    padding: 120px 59.2px 60px 59.2px;
+    padding: 120px 50px 60px 65px;
     background-color: #F1F3F5;
 }

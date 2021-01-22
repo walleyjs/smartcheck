@@ -67,3 +67,12 @@
 .AtableHead span{
     padding: 0px 0px 0px 30px;
 }
+@media only screen and (max-width:800px) {
+    .AtableHead {
+       
+        padding: 12px 16px 15px 20px;
+        
+        font-size: 9px;
+       
+    }
+}

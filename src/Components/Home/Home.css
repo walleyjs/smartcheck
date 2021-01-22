@@ -5,6 +5,7 @@
   
     padding: 0px 0px 0px 0px;
 }
+
 .HomeHead{
     width: 80%;
     display: flex;
@@ -223,8 +224,9 @@ font-size: 13px;
     border-radius: 4px;
     opacity: 1;
     border: none;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 7px 5px 7px;
     color: #1B1464;
+    font-size: 13px;
     /* margin-right: 10px; */
 }
 .Hlsection{
@@ -249,4 +251,56 @@ font-size: 13px;
     border-radius: 100%;
     background-color:#49D3FF;
     color:#ffffff;
+}
+@media only screen and (max-width:800px) {
+    .Headlogo{
+        padding: 15px 0px 10px 35.2px;
+    }
+    .HeadCont {
+        padding: 10px 0px 0px 30.2px;
+    }
+    .Rcomp {
+        padding: 120px 43px 60px 35px;
+        background-color: #F1F3F5;
+    }
+    .HomeHead {
+        width: 90%;
+    }
+    .HeadText4 {
+      
+        margin-right: 30px;
+    }
+    .StatTxt {
+        font-size: 12px;
+    }
+    .StatIn {
+        font-size: 10px;
+    }
+    .HinnerDet .Hinnertic {
+        padding: 0px 3px 0px 3px;
+        /* width: 1%; */
+        
+        font-size: 3px;
+        margin: 0px 10px 10px 0px;
+    }
+    .HtableHead {
+        font-size: 11px;
+        padding: 13px 0px 15px 0px;
+    }
+    .HinnerDet {
+       
+        padding: 18px 0px 11px 15px;
+       
+    }
+    .HinnerDet li {
+        font-size: 9px;
+    }
+    .HinnerDet img{
+        width: 100%;
+    }
+    .HvBtn button {
+    padding: 5px 6px 5px 6px;
+    color: #1B1464;
+    font-size: 8px;
+    }
 }

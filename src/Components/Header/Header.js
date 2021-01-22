@@ -23,16 +23,22 @@ function Header() {
         <div className="Headlogo">
         <img src={smartlogo} width="10%" alt="logo" />
         </div>
-        <ul className="HeadCont">
-      <Link to="/"> 
-       <li className="HeadText HeadText1"><img src={hIcon} width="20%"  alt="logo" /> Home</li>
-     </Link>
+        <ul className="HeadCont uHeadCount">
+        <li className="HeadText HeadText1">
+          <Link to="/"> 
+          <img src={hIcon} width="23%"  alt="logo" /> Home
+        </Link>
+     </li>
+     <li className="HeadText HeadText2">
      <Link to="/server"> 
-        <li className="HeadText HeadText2"><img src={sIcon} width="20%"  alt="logo" /> Server</li>
+      <img src={sIcon} width="2%"  alt="logo" /> Server
         </Link>
+        </li>
+        <li className="HeadText HeadText3">
         <Link to="/application"> 
-        <li className="HeadText HeadText3"><img src={aIcon} width="16%"   alt="logo" /> Application</li>
+        <img src={aIcon} width="16%"   alt="logo" /> Application
         </Link>
+        </li>
         <li className="HeadText4"> <button>Check Health Status</button> </li>
       </ul>
       </div>
