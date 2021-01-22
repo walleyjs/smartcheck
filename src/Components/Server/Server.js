@@ -46,8 +46,8 @@ function Server() {
               <ul className="HinnerDet">
               <li  style={{marginLeft:'10px',marginRight:'0px'}}>1<span className="Hcc">a</span>Server name goes here </li>
                   <li >IP Address goes here</li>
-                  <li  style={{marginLeft:'0px',marginRight:'50px'}}>85.6</li>
-                  <li style={{marginLeft:'0px',marginRight:'70px'}}> 73.9</li>
+                  <li  className="Smedia">85.6</li>
+                  <li className="Sfmedia"> 73.9</li>
                  
                   <li style={{marginLeft:'0px',marginRight:'50px'}}>50</li>
                  
@@ -56,8 +56,8 @@ function Server() {
               <ul className="HinnerDet">
               <li  style={{marginLeft:'10px',marginRight:'0px'}}>2<span className="Hcc">a</span>Server name goes here </li>
                   <li >IP Address goes here</li>
-                  <li  style={{marginLeft:'0px',marginRight:'50px'}}>85.6</li>
-                  <li style={{marginLeft:'0px',marginRight:'70px'}}> 73.9</li>
+                  <li className="Smedia">85.6</li>
+                  <li className="Sfmedia"> 73.9</li>
                  
                   <li style={{marginLeft:'0px',marginRight:'50px'}}>50</li>
                  
@@ -66,8 +66,8 @@ function Server() {
               <ul className="HinnerDet">
               <li  style={{marginLeft:'10px',marginRight:'0px'}}>3<span className="Hcc">a</span>Server name goes here </li>
                   <li >IP Address goes here</li>
-                  <li  style={{marginLeft:'0px',marginRight:'50px'}}>85.6</li>
-                  <li style={{marginLeft:'0px',marginRight:'70px'}}> 73.9</li>
+                  <li className="Smedia">85.6</li>
+                  <li  className="Sfmedia" > 73.9</li>
                  
                   <li style={{marginLeft:'0px',marginRight:'50px'}}>50</li>
                  
@@ -76,8 +76,8 @@ function Server() {
               <ul className="HinnerDet">
               <li  style={{marginLeft:'10px',marginRight:'0px'}}>4<span className="Hcc">a</span>Server name goes here </li>
                   <li >IP Address goes here</li>
-                  <li  style={{marginLeft:'0px',marginRight:'50px'}}>85.6</li>
-                  <li style={{marginLeft:'0px',marginRight:'70px'}}> 73.9</li>
+                  <li className="Smedia">85.6</li>
+                  <li className="Sfmedia"> 73.9</li>
                  
                   <li style={{marginLeft:'0px',marginRight:'50px'}}>50</li>
                  
@@ -86,8 +86,8 @@ function Server() {
               <ul className="HinnerDet">
               <li  style={{marginLeft:'10px',marginRight:'0px'}}>5<span className="Hcc">a</span>Server name goes here </li>
                   <li >IP Address goes here</li>
-                  <li  style={{marginLeft:'0px',marginRight:'50px'}}>85.6</li>
-                  <li style={{marginLeft:'0px',marginRight:'70px'}}> 73.9</li>
+                  <li className="Smedia">85.6</li>
+                  <li className="Sfmedia"> 73.9</li>
                  
                   <li style={{marginLeft:'0px',marginRight:'50px'}}>50</li>
                  
