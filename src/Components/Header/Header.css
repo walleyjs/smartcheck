@@ -1,38 +1,62 @@
 .Header{
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
+    width: 100%;
    
+   
+}
+.FixedHead{
+     position: fixed;
+     width: 100%;
 }
 .Headlogo{
     background-color: #1B1464;
     /* width: 100%; */
-    padding: 19px 0px 19px 59.2px;
+    padding: 15px 0px 10px 59.2px;
 }
 .HeadCont{
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 5px 0px 19px 59.2px;
-    background-color: #FFFFFF;
+    padding: 10px 0px 10px 59.2px;
+    background-color: #ffffff;
 }
 .HeadText{
     margin-right: 20px;
     color: #1B1464;
     font-size: 16px;
     font-style: normal normal normal 20px/25px Muli;
+    padding: 15px 0px 0px 0px;
+}
+a:-webkit-any-link {
+    text-decoration: none;
 }
 .HeadText4{
     margin-left: auto;
+    margin-right: 50px;
+}
+.HeadText4 button{
+    background: #49D3FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 2px #00000029;
+    border-radius: 1px;
+    opacity: 1;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    color: #1B1464;
+    /* margin-right: 10px; */
 }
 
 ul {
     display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 0px;
+}
+.Rcomp{
+    padding: 120px 59.2px 60px 59.2px;
+    background-color: #F1F3F5;
 }

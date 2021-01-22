@@ -1,0 +1,252 @@
+.HomeBody{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+    padding: 0px 0px 0px 0px;
+}
+.HomeHead{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.hAppsat{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    margin-right: 10px;
+    padding: 10px 10px 20px 10px;
+}
+.StatTxt{
+    font-size: 15px;
+    padding: 0px 0px 35px 0px;
+}
+.StatDet{
+    display: flex;
+    flex-direction: column;
+  
+    padding: 0px 30px 0px 20px;
+   /* width: 100%; */
+}
+
+.StatDet ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    justify-content: space-around;
+
+    
+    width: 100%;
+    /* justify-content: space-evenly; */
+   
+}
+.hcStat{
+    list-style: none;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 0px 30px 0px 20px;
+}
+.StatVal{
+   
+    text-align: center;
+  
+   font-size: 12px;
+   
+    border-radius: 100%;
+    padding: 10px;
+   
+}
+
+.StatIn{
+  
+    margin: 15px 0px 0px 0px;
+    width: 100%;
+    font-size: 12px;
+    color: #262626;
+    
+}
+.HomeContent{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 0px 0px;
+    padding: 45px 50px 50px 50px;
+    background-color: #ffffff;
+}
+.HomeInputs{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 70%;
+    padding: 0px 0px 10px 0px ;
+}
+
+.SearchInp{
+    width: 60%;
+    margin: 0px 40px 0px 0px;
+    color: #777777;
+    font-size: 13px;
+}
+.SearchInp input{
+    width:100%;
+    padding: 10px 2px 10px 10px;
+    border:none;
+    /* background-color: #F3F3F7; */
+    background-position-x: -7px;
+    background-position-y: -2px;
+    background-size: cover;
+    /* background: transparent url('img/Search.png') 0% 0% no-repeat padding-box; */
+}
+.SelectInp{
+    width: 50%;
+
+}
+.SelectInp select{
+    width:90%;
+    color: #777777;
+    font-size: 13px;
+    padding: 5px 0px 10px 10px;
+    border:0.3px solid #A8ABAB;
+    /* background-position-x: 20px; */
+    /* background-position: right; */
+    /* border: ; */
+    /* margin-right: 10px; */
+}
+.HTable{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #D3D3D3;
+    padding: 20px 0px 45px 0px;
+
+
+}
+.HtableTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+
+    padding: 5px 50px 15px 0px;
+
+}
+.Hpdfi{
+    margin-left: auto;
+}
+.HmainTab{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 100px 0px;
+}
+.HtableHead{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    padding: 15px 0px 20px 0px;
+    /* width: 100%; */
+    
+    /* font-family:Muli; */
+    opacity: 1;;
+    color: #000B14;
+    opacity: 1;
+    font-size: 15px;
+    background-color: #B3B3B480;
+    text-align: center;
+   
+    /* list-style-type: ; */
+}
+
+.HtableHead span{
+    padding: 0px 0px 0px 30px;
+}
+
+.HinnerDet{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* width: 100%; */
+    padding: 20px 0px 15px 15px;
+    border-top: 1px solid #D3D3D3;
+    /* border-bottom: 1px solid #D3D3D3; */
+    text-align: center;
+    font-size: 15px;
+   
+}
+.HinnerDet li{
+    text-align: center;
+    display: flex;
+flex-direction: row;
+font-size: 13px;
+}
+.HinnerDet .Hcc{
+    padding: 0px 5px 0px 5px;
+    /* width: 5%; */
+    border-radius: 100%;
+    background-color: #24C977;
+    font-size: 2px;
+    color:#24C977;
+    margin: 3px 20px 7px 18px;
+    /* margin-bottom: 50px; */
+}
+.HinnerDet li{
+  text-align:start;
+}
+
+.HinnerDet .Hinnertic{
+    padding: 0px 6px 0px 6px;
+    /* width: 1%; */
+    border-radius: 100%;
+    background-color:#14DB77;
+    color:#ffffff;
+    font-size: 15px;
+    margin: 0px 10px 0px 0px;
+}
+.Hsectext{
+    width: 100%;
+   
+}
+.HvBtn {
+    display: flex;
+    flex-direction: row;
+}
+.HvBtn button{
+    background: #49D3FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 2px #00000029;
+    border-radius: 4px;
+    opacity: 1;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    color: #1B1464;
+    /* margin-right: 10px; */
+}
+.Hlsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.HNextPage{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.HNextPage li{
+    color:#222222;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.Hcirc{
+    padding: 2px 8px 2px 8px;
+    /* width: 1%; */
+    border-radius: 100%;
+    background-color:#49D3FF;
+    color:#ffffff;
+}

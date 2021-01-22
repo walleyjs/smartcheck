@@ -5,8 +5,8 @@ import Server from './Components/Server/Server'
 function App() {
   return (
     <div>
-      <Server/>
-      hello
+      <Header/>
+    
     </div>
   );
 }
